@@ -1,0 +1,280 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: inline;
+}
+
+
+
+.header {
+    margin: 0;
+    padding: 15px;
+    overflow: auto;
+    background-color:#0fbe7d;
+    max-height: 90px;
+}
+
+.header-left{
+    float: left;
+    padding-top: 5px;
+    padding-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right{
+    float: right;
+    padding-right: 130px;
+}
+
+    ul{
+        list-style-type: none;
+    }
+  
+ul li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000
+}
+  
+li a:hover {
+    color: #dd0000;
+}
+
+h4{
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+p{
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.page-container{
+    padding-top: 20px;
+    background-color: #e6e6e6;
+}
+.content-top{
+    height: 400px;
+    width: 1347px;
+    /* overflow: auto; */
+    border-top: 0px;
+    padding-bottom: 100px;
+}
+
+.content{
+    height: 411px;
+    width: 250px;
+    background: #ffffff;
+    border-bottom: 5px solid #c6c6c6;
+    float: left;
+    margin: 5px;
+    /* overflow: auto; */   
+    display: block;
+}
+
+.image-desc{
+    display: inline;
+}
+
+.image{
+    height: 350px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    image-rendering: auto;
+}
+#first{
+    margin-left:150px;
+}
+#fourth{
+    margin-right: 150px;
+}
+
+.content-divider{
+    /* border: 1px solid #000000; */
+    height: 50px;
+    width: 400px;
+    margin-left: 460px;
+    margin-top: -55px;
+    padding-top: 5px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.see-all{
+    padding-top: 15px;
+    text-align: center;
+    color: #f4d929;
+}
+
+.content-middle{
+    background: #6b6b6b;
+    height: 200px;
+    width: 1347px;
+    /* overflow: auto; */
+    border-top: 0px;
+    padding-bottom: 50px;
+    border: 0px;
+}
+
+.content2{
+    margin-right: 20px;
+    padding-top: 50px;
+    width: 250px;
+    float: left;
+    /* margin: 20px;  */
+    display: block;
+}
+
+.title{
+    color: #fef500;
+    width: 250px;
+    padding-left:150px;
+}
+
+.content-description{
+    width: 250px;
+    padding-left:150px;
+}
+
+.content-bottom{
+    background: #f1f1f1;
+    border-bottom: 5px solid #fff600;
+    height: 450px;
+    width: 1347px;
+    /* overflow: auto; */
+}
+
+.content3{
+    padding-top: 30px;
+    margin-right: 120px;
+    width: 250px;
+    float: left;
+    /* margin: 20px;  */
+    display: block;
+}
+
+.company{
+    width: 300px;
+    padding-left:150px;
+}
+
+.company-blog{
+    width: 300px;
+    padding-left:150px;
+}
+
+a{
+    padding: 0px;
+    color: #dd0000;
+}
+
+.bottom-container{
+    background: #3c3c3c;
+    height: 400px;
+    width: 1347px;
+    /* overflow: auto; */
+    display: block;
+}
+
+.footer{
+    margin: 0;
+    background-color:#1f1f1f;
+    height: 50px;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-left{
+    float: left;
+    padding-top: 15px;
+    padding-left: 140px;
+    display: block;
+    color: #ffffff; 
+}
+
+.footer-right{
+    padding-top: 15px;
+    float: right;
+    padding-right: 130px;  
+    color: #ffffff;
+}
+.email{
+    padding-left: 150px;
+    padding-top: 15px;
+}
+
+.button{
+    background: #fef500;
+}
+
+p a{
+    margin: 0px;
+    padding: 0px;
+    color: #fff601;
+}
+
+.bottom-footer{
+    background: #3c3c3c;
+    color: #c0c0c0;
+}
+
+.footer-content{
+    float: left;
+    padding-left: 150px;
+    padding-top: 20px;
+    width: 250px;
+    display: inline;
+}
+
+ol{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-links{
+    float: left;
+    margin: 0px;
+    color: #c0c0c0;
+}
+
+.footer-image{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    display: inline-block;
+}
+fieldset{
+    background: #6b6b6b;
+    max-width: 100%;
+    border: 0px;
+    margin: 0px;
+}
+
+legend{
+    text-align: center;
+    height: 50px;
+    width: 475px;
+    background: #000000;
+    color: #fef500;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+legend a{
+    color: #fef500; 
+}
